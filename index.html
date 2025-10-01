@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Muelo - Full Stack Developer</title>
+
+  <!-- Fonts & Icons -->
+  <link 
+    rel="stylesheet" 
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" 
+  />
+  <link 
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" 
+    rel="stylesheet" 
+  />
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Scroll Progress & Background Effects -->
+  <div id="scroll-progress" class="scroll-progress"></div>
+  <div class="animated-bg"></div>
+  <div id="particles" class="particles"></div>
+
+  <!-- Navigation -->
+  <nav id="navbar" class="navbar">
+    <div class="nav-container">
+      <div class="logo">Muelo</div>
+      <ul id="nav-menu" class="nav-menu">
+        <li><a href="#home" class="nav-link">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+      <div class="nav-actions">
+        <button id="theme-toggle" class="theme-toggle" aria-label="Toggle Theme">
+          <i class="fas fa-moon"></i>
+        </button>
+        <button id="mobile-menu-toggle" class="mobile-menu-toggle" aria-label="Toggle Menu">
+          <i class="fas fa-bars"></i>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="floating-element floating-1"></div>
+    <div class="floating-element floating-2"></div>
+    <div class="floating-element floating-3"></div>
+
+    <div class="hero-content">
+      <div class="hero-text">
+        <h1 class="hero-title">
+          Hi, I'm <span class="gradient-text">Muelo Korphae</span>
+        </h1>
+        <h2 class="hero-subtitle">
+          <span id="typing-text">Full Stack Developer</span>
+          <span class="cursor">|</span>
+        </h2>
+        <p class="hero-description">
+          I specialize in creating exceptional digital experiences by blending innovative web development with visually compelling design. By leveraging cutting-edge technologies, I transform ideas into functional and engaging digital solutions that resonate with users.
+        <div class="hero-buttons">
+          <a href="#projects" class="btn btn-primary">
+            <i class="fas fa-rocket"></i> View My Work
+          </a>
+          <a href="#contact" class="btn btn-secondary">
+            <i class="fas fa-envelope"></i> Get In Touch
+          </a>
+        </div>
+      </div>
+      <div class="hero-image">
+        <div class="profile-card">
+          <div class="profile-image">
+            <img src="assets/images/muelo1.jpg" alt="Alex Johnson profile picture" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="section fade-in">
+    <div class="container">
+      <h2 class="section-title">About Me</h2>
+      <div class="about-content">
+        <div class="about-text">
+          <p>
+            I am a highly motivated student pursuing dual degrees in Computer Science and English, dedicated to continuous learning and skill development. I strive to deepen my knowledge and apply academic insights to practical challenges, cultivating both technical and analytical abilities.
+          </p>
+          <p>
+            
+Passionate about contributing to collaborative projects, I aim to support team success while fostering personal and professional growth. I am committed to leveraging my interdisciplinary expertise to make a meaningful impact in dynamic and innovative environments.
+          </p>
+          <div class="about-stats">
+            <div class="stat"><h3>5+</h3><p>Projects Completed</p></div>
+            <div class="stat"><h3>2+</h3><p>Years Experience</p></div>
+            <div class="stat"><h3>80%</h3><p>Client Satisfaction</p></div>
+          </div>
+        </div>
+        <div class="about-image">
+          <div class="about-card">
+            <img src="assets/images/muelo.jpg" alt="Workspace setup" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section fade-in">
+        <div class="container">
+            <h2 class="section-title">Skills & Expertise</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Frontend</h3>
+                    <div class="skill-item">
+                        <span>React/Next.js</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="95"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <span>TypeScript</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="60"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <span>CSS/Tailwind</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="92"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <span>CSS</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="92"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <span>JavaScript</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="92"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <span>HTML</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="92"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <span>Flutter</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="70"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <span>ReactNative</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="92"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Backend</h3>
+                    <div class="skill-item">
+                        <span>Node.js</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="88"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <span>Python</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="85"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <span>Java</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="50"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <span>PostgreSQL</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="80"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <span>PHP</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="70"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <span>MySQL</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="80"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <span>MongoDB</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="80"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Tools & Others</h3>
+                    <div class="skill-item">
+                        <span>Git/GitHub</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="93"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <span>Docker</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="75"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <span>AWS</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="70"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> 
+
+    <!-- Projects Section -->
+    <section id="projects" class="section fade-in">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="assets/images/iater.png" alt="Company Website">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="http://iater.org/" class="project-link"><i class="fas fa-external-link-alt" target="_blank"></i></a>
+                                <a href="https://github.com/ayaoVA02/iater-website.git" class="project-link"><i class="fab fa-github" target="_blank"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>iater-website</h3>
+                        <p>A full-stack solution built with React, Node.js, and MySQL featuring blog management and secure.</p>
+                        <div class="project-tech">
+                            <span>React</span>
+                            <span>Node.js</span>
+                            <span>MySQL</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="assets/images/travel.png" alt=" Tour Management ">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="ThisProjectHasn'tDeployedYet" class="project-link"><i class="fas fa-external-link-alt" target="_blank"></i></a>
+                                <a href="https://github.com/Muelokorphae/classmate.git" class="project-link" target="_blank"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Travel Management </h3>
+                        <p>A collaborative project management tool  updates, drag-and-drop functionality, and team collaboration features.</p>
+                        <div class="project-tech">
+                            <span>HTML</span>
+                            <span>JavaScript</span>
+                            <span>CSS</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="assets/images/LLP.png" alt="Weather Dashboard">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="ThisProjectHasn'tDeployedYet" class="project-link" target="_blank"><i class="fas fa-external-link-alt" ></i></a>
+                                <a href="https://github.com/Muelokorphae/finalProject.git" class="project-link" target="_blank"><i class="fab fa-github" ></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3> News School News Management</h3>
+                        <p>An website with location-based school, beautiful visualizations, and responsive design.</p>
+                        <div class="project-tech">
+                            <span>PHP</span>
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                            <span>MySQL</span>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+  <!-- Contact Section -->
+  <section id="contact" class="section fade-in">
+    <div class="container">
+      <h2 class="section-title">Contact</h2>
+      <div class="contact-content">
+        <div class="contact-info">
+          <h3>Get In Touch</h3>
+          <p>I'm always interested in new opportunities and exciting projects. Let's discuss how we can bring your ideas to life.</p>
+          
+          <div class="contact-methods">
+            <div class="contact-method"><i class="fas fa-envelope"></i><span>muelokor@gmail.com</span></div>
+            <div class="contact-method"><i class="fas fa-phone"></i><span>+856 77846748</span></div>
+            <div class="contact-method"><i class="fas fa-map-marker-alt"></i><span>Vientiane, Laos</span></div>
+          </div>
+          <div class="social-links">
+            <a href="https://github.com/Muelokorphae" class="social-link" aria-label="GitHub" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/muelo-korphae-1b792730b/" class="social-link" aria-label="LinkedIn" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://www.facebook.com/muelo.korphae.5" class="social-link" aria-label="Facebook" target="_blank"><i class="fab fa-facebook" ></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Scripts -->
+  <script src="script.js"></script>
+  <script></script>
+
+
+</body>
+</html>
